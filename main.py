@@ -24,7 +24,7 @@ if __name__ == "__main__":
         assert (average_paid_loans(json_file) == 2681.2593672727276), "Average of paid loans should equal 2681.2593672727276"
         assert (foo() == ["baz"]), "This should return a single item 'baz'"
         assert (foo() == ["baz"]), "When I call the function the second time I should still get a single element in the array"
-        print("All test passed successfully!! 😀")
+        print("All test passed successfullyx!! 😀")
     except (
         AssertionError, SyntaxError, TypeError
     ) as error:
